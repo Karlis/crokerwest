@@ -548,3 +548,11 @@ hr.star-light-contact:after {
     margin: 0px 5px;
     width: 20px;
     height: 20px; } }
+
+.RP {
+    text-transform: none;
+    font-family: "Trebuchet MS";
+    font-weight:300;
+    font-size: 14px;
+    
+}
