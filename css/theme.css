@@ -554,5 +554,11 @@ hr.star-light-contact:after {
     font-family: "Trebuchet MS";
     font-weight:400;
     font-size: 14px;
-    
+}
+
+.phone-number{
+  margin-left: 20px;
+}
+.contact-info{
+  font-size: 1.7em;
 }
