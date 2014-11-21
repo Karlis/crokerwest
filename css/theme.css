@@ -123,6 +123,10 @@ a:focus {
     vertical-align: middle; }
     .intro .intro-body .brand-heading {
       font-size: 40px; }
+    .intro .intro-body .brand-heading-RP {
+      font-size: 40px;
+      font-family: "Trebuchet MS";
+      text-transform: none; }
     .intro .intro-body .intro-text {
       font-size: 18px; }
 
@@ -499,6 +503,10 @@ hr.star-light-contact:after {
     padding: 0; }
     .intro .intro-body .brand-heading {
       font-size: 100px; }
+    .intro .intro-body .brand-heading-RP {
+      font-size: 100px;
+      font-family: "Trebuchet MS";
+      text-transform: none; }
     .intro .intro-body .intro-text {
       font-size: 25px; }
 
@@ -540,7 +548,3 @@ hr.star-light-contact:after {
     margin: 0px 5px;
     width: 20px;
     height: 20px; } }
-
-
-
-
