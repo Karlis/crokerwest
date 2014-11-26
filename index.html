@@ -51,7 +51,7 @@
               <ul class="nav navbar-nav">
                   <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                   <li><a class="page-scroll" href="#about">About</a></li>
-                  <li><a class="page-scroll" href="#portfolio"><span style="color:#fd437c">Croker</span></a></li>
+                  <li><a class="page-scroll" href="#portfolio"><span class="croker-color">Croker</span></a></li>
                   <li><a class="page-scroll" href="http://www.rowperfect.ca/"><span style="color:#f00">Row</span><span style="color:#00f"><em>perfect</em></span></a></li>
                   <li><a class="page-scroll" href="#services">Services</a></li>
                   <li><a class="page-scroll" href="#contact">Contact</a></li>
@@ -74,11 +74,13 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <h1 class="brand-heading">Croker Oars</h1>
+                                <h1 class="brand-heading"><span class="croker-color">Croker</span> Oars</h1>
                                 <p class="intro-text">World's best oars<br />&nbsp;</p>
                             </div>
                             <div class="item">
-                                <h1 class="brand-heading-RP"><span style="color:red">Row</span><em><span style="color:blue">perfect</span></em></h1>
+                                <h1 class="brand-heading-RP">
+                                  <span style="color:red">Row</span><em><span style="color:blue">perfect</span></em>
+                                </h1>
                                 <p class="intro-text">World's best dynamic rowing simulator<br />&nbsp;</p>
                             </div>
                             <div class="item">
@@ -108,7 +110,9 @@
           <hr class="star-light star-light-about">
           <p>Since November 2006, Croker Oars West Ltd. has been serving the North American rowing community with nothing but the best in rowing equipment - Croker Oars and Rowperfect rowing simulators.</p>
           <p>Croker West is a small business owned and operated by Cinda Ewton and Laris Grikis, rowers and coaches who are passionate about the sport and committed to serving your rowing needs. We have over 45 years of combined experience in both sweep rowing and sculling. We are ready to assist you in choosing the best oars suited to your needs.</p>
-          <img src="./images/oars.jpg" height="300">
+          <p>
+            <img src="./images/oars.jpg" height="300">
+          </p>
           <p>Our shop is nestled in the mountains on the North Shore of Vancouver in Beautiful British Columbia. We ship our Canadian orders and large US orders directly from Vancouver. Sculling orders bound for the United States are sent from our Blaine, WA address - we take care of US Customs, allowing you to simply await the arrival of your new oars or parts.</p>
           <div class="row about-team">
             <div class="col-sm-6">
@@ -128,10 +132,7 @@
           </div><!--
           <h4 class="text-center">Our Happy Clients</h4>
           <ul class="list-inline customers">
-            <li><img src="images/karlis.png" alt="karlis-logo" /></li>
-            <li><img src="images/karlis.png" alt="karlis-logo" /></li>
-            <li><img src="images/karlis.png" alt="karlis-logo" /></li>
-            <li><img src="images/karlis.png" alt="karlis-logo" /></li>
+            <li><img src="customer" alt="customer-logo" /></li>
           </ul> -->
         </div>
       </div>
@@ -144,9 +145,9 @@
         <h2>Croker Oars</h2>
         <hr class="star-light star-light-team">
               <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-3">
                   <div class="info-card">
-                    <img style="height: 170px; width: 100%" src="./images/sculling.jpg" />
+                    <img src="./images/sculling.jpg" />
                     <div class="info-card-details animate">
                       <div class="info-card-header">
                         <h3>Sculling</h3>
@@ -161,9 +162,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-3">
                   <div class="info-card">
-                    <img style="height: 170px; width:100% " src="./images/rowing.jpg" />
+                    <img src="./images/rowing.jpg" />
                     <div class="info-card-details animate">
                       <div class="info-card-header">
                         <h3>Rowing</h3>
@@ -177,9 +178,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-3">
                   <div class="info-card">
-                    <img style="height: 170px; width: 100%" src="./images/scullgrip.jpg" />
+                    <img src="./images/scullgrip.jpg" />
                     <div class="info-card-details animate">
                       <div class="info-card-header">
                         <h3>Parts</h3>
@@ -193,9 +194,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-3">
                   <div class="info-card">
-                    <img style="height: 170px; width: 100%" src="./images/seat.jpg" />
+                    <img src="./images/seat.jpg" />
                     <div class="info-card-details animate">
                       <div class="info-card-header">
                         <h3>Seats &amp; Oarlocks</h3>
@@ -213,27 +214,6 @@
      </div>
   </section>
 
- <!-- Portfolio Section: Rowperfect -->
- <!--  <section id="portfolio" class="container content-section text-center">
-    <div class="row">
-      <div class="col-lg-10 col-lg-offset-1">
-        <h2>Portfolio</h2>
-        <hr class="star-light star-light-portfolio">
-        <ul class="list-inline">
-          <li><img data-scroll-reveal="enter left and move 50px over 1.33s" class="" src="images/exhaust.jpg" alt="exhaust-logo" /></li>
-          <li><img data-scroll-reveal="enter right and move 60px over 0.4s" class="" src="images/brake.jpg" alt="brake-logo" /></li>
-          <li><img data-scroll-reveal="enter top and move 50px over 1.33s" class="" src="images/exhaust.jpg" alt="exhaust-logo" /></li>
-          <li><img data-scroll-reveal="enter right and move 60px over 0.4s" class="" src="images/brake.jpg" alt="brake-logo" /></li>
-          <li><img data-scroll-reveal="enter top and move 40px over 1.5s" class="" src="images/head-lamp.jpg" alt="head-lamp-logo" /></li>
-          <li><img data-scroll-reveal="enter left and move 30px over 1s" class="" src="images/gauge-meter.jpg" alt="gauge-logo" /></li>
-          <li><img data-scroll-reveal="enter bottom and move 80px over 1s" class="" src="images/throttle.jpg" alt="throttle-logo" /></li>
-          <li><img data-scroll-reveal="enter right and move 50px over .8s" class="" src="images/carburetor.jpg" alt="carburetor-logo" /></li>
-        </ul>
-      </div>
-    </div>
-  </section> -->
-
-
   <!-- Services Section: Services -->
   <section id="services" class="container content-section text-center">
       <div class="row">
@@ -241,46 +221,47 @@
             <h2>Services</h2>
             <hr class="star-light star-light-services">
             <div class="row">
-              <div class="col-sm-6 col-md-4 text-center" data-scroll-reveal="enter left and move 50px over 1.33s">
-                <div class="portfolio-item animateFlipInY">
-                  <p><img src="http://www.crokerwest.com/img/CWBack.jpg" width="150px" height="150px" alt="repair-logo" /></p>
+              <div class="col-sm-6 col-md-4 text-center">
+                <div class="portfolio-item">
+                  <p><img src="http://www.crokerwest.com/img/CWBack.jpg" alt="repair-logo" /></p>
                   <h4>Oar Repair</h4>
-                  <p class="text-justify">We reshaft and reblade broken oars...we can bring them back from the dead.</p>
+                  <p>We reshaft and reblade broken oars...we can bring them back from the dead.</p>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 text-center" data-scroll-reveal="enter top and move 50px over 1.33s">
+              <div class="col-sm-6 col-md-4 text-center">
                 <div class="portfolio-item">
-                  <p><img src="http://www.crokerwest.com/img/CWBack.jpg" width="150px" height="150px" alt="resleeve-logo" /></p>
+                  <p><img src="http://www.crokerwest.com/img/CWBack.jpg" alt="resleeve-logo" /></p>
                   <h4>Oar Re-sleeving</h4>
-                  <p class="text-justify">We offer resleeving services or just parts supply and advice.</p>
+                  <p>We offer resleeving services or just parts supply and advice.</p>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 text-center" data-scroll-reveal="enter right and move 50px over 1.33s">
+              <div class="col-sm-6 col-md-4 text-center">
                 <div class="portfolio-item">
-                  <p><img src="http://www.crokerwest.com/img/CWBack.jpg" width="150px" height="150px" alt="regrip-logo" /></p>
+                  <p><img src="http://www.crokerwest.com/img/CWBack.jpg" alt="regrip-logo" /></p>
                   <h4>Replace Rowing grips</h4>
                   <p>Ship us your tired handles and we will refurbish them for you.</p>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 text-center"  data-scroll-reveal="enter left and move 50px over 1.33s">
+              <hr class="visible-lg visible-md align-services">
+              <div class="col-sm-6 col-md-4 text-center">
                 <div class="portfolio-item">
-                  <p><img src="http://www.crokerwest.com/img/CWBack.jpg" width="150px" height="150px" alt="refurbish-logo" /></p>
+                  <p><img src="http://www.crokerwest.com/img/CWBack.jpg" alt="refurbish-logo" /></p>
                   <h4>Refurbished oars</h4>
-                  <p class="text-justify">Refurbished used oars available from time to time.</p>
+                  <p>Refurbished used oars available from time to time.</p>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 text-center" data-scroll-reveal="enter bottom and move 50px over 1.33s">
+              <div class="col-sm-6 col-md-4 text-center">
                 <div class="portfolio-item">
-                  <p><img src="http://www.crokerwest.com/img/CWBack.jpg" width="150px" height="150px" alt="lab-logo" /></p>
+                  <p><img src="http://www.crokerwest.com/img/CWBack.jpg" alt="lab-logo" /></p>
                   <h4>Camps and Demos</h4>
-                  <p class="text-justify">We offer camps and demos - use the contact form to enquire.</p>
+                  <p>We offer camps and demos - use the contact form to enquire.</p>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 text-center" data-scroll-reveal="enter right and move 50px over 1.33s">
+              <div class="col-sm-6 col-md-4 text-center">
                 <div class="portfolio-item">
-                  <p><img src="http://www.crokerwest.com/img/CWBack.jpg" width="150px" height="150px" alt="heart-logo" /></p>
+                  <p><img src="http://www.crokerwest.com/img/CWBack.jpg" alt="heart-logo" /></p>
                   <h4>We love Luna</h4>
-                  <p class="text-justify">Luna the wonder regatta dog - our friend and mascot.</p>
+                  <p>Luna the wonder regatta dog - our friend and mascot.</p>
                 </div>
               </div>
             </div>
@@ -302,7 +283,6 @@
                 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://crokerwest.com/newsitecw';}"></iframe>
                 <form id="contact-form" action="https://docs.google.com/forms/d/1bEL25DHqKB52pQ4FpvImiAUiivE7sdWwRri4n_cTDYw/formResponse?embedded=true" method="post" target="hidden_iframe" onsubmit="submitted=true;">
                   <fieldset>
-
 
                   <!-- Name input-->
                   <div class="form-group">
@@ -362,6 +342,7 @@
           <div id="contact-map">
             <img src="http://www.kpg-industrial.com/images/map/map.gif" height="80%" width="80%" class="img-thumbnail">
           </div>
+          <br>
           <h4>Since 2006</h4>
         </div
       </div>
@@ -403,8 +384,5 @@
   <script>
   // Google Analytics
   </script>
-
-
 </body>
-
 </html>
