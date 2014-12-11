@@ -212,7 +212,7 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 .contact-section {
   width: 100%;
@@ -682,4 +682,20 @@ hr.star-light-contact:after {
 
 .product {
 	padding-top: 60px;
+}
+
+.sculling-intro {
+  background: url(../images/sculling.jpg) no-repeat top center fixed;
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  position: relative;
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
