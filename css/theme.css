@@ -564,7 +564,7 @@ hr.star-light-contact:after {
     font-size: 18px;
     line-height: 1.6;
   }
-  .intro .rowintro .scullintro {
+  .intro .rowintro .scullintro .seatintro .partsintro {
     height: 100%;
     padding: 0;
   }
@@ -673,7 +673,7 @@ hr.star-light-contact:after {
 }
 #sculling-grips,
 #rowing-grips {
-  background: url(http://crokerwest.com/newsitecw/images/repeat.jpg);
+  background: url(../images/repeat.jpg);
 }
 #order {
   background: url(http://crokerwest.com/newsitecw/images/repeat.jpg);
@@ -716,3 +716,39 @@ hr.star-light-contact:after {
   overflow: hidden;
 }
 
+.seatintro {
+  background: url(../images/seatback.jpg) no-repeat top center fixed;
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  position: relative;
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.partsintro {
+  background: url(../images/rowback.jpg) no-repeat top center fixed;
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  position: relative;
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+#plaid {
+	background: url(../images/repeat.jpg);
+}
