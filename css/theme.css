@@ -752,3 +752,7 @@ hr.star-light-contact:after {
 #plaid {
 	background: url(../images/repeat.jpg);
 }
+
+#plain {
+  background-color: #ffffff;
+}
