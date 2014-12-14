@@ -105,6 +105,7 @@ a:focus {
 }
 .intro {
   background: url(../images/CWBack.jpg) no-repeat top center fixed;
+  background-size: cover !important;
   display: table;
   width: 100%;
   height: 100%;
@@ -118,8 +119,9 @@ a:focus {
   padding: 0;
   overflow: hidden;
 }
+
 .intro .parallax {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
   margin: 0;
   height: 100%;
   position: absolute;
@@ -684,69 +686,11 @@ hr.star-light-contact:after {
 	padding-top: 60px;
 }
 
-.scullintro {
-  background: url(../images/scullback.jpg) no-repeat top center fixed;
-  display: table;
-  width: 100%;
-  height: 100%;
-  padding: 100px 0;
-  text-align: center;
-  color: #fff;
-  background-color: #000;
-  position: relative;
-  width: 100% !important;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.rowintro {
-  background: url(../images/rowback.jpg) no-repeat top center fixed;
-  display: table;
-  width: 100%;
-  height: 100%;
-  padding: 100px 0;
-  text-align: center;
-  color: #fff;
-  background-color: #000;
-  position: relative;
-  width: 100% !important;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.seatintro {
-  background: url(../images/seatback.jpg) no-repeat top center fixed;
-  display: table;
-  width: 100%;
-  height: 100%;
-  padding: 100px 0;
-  text-align: center;
-  color: #fff;
-  background-color: #000;
-  position: relative;
-  width: 100% !important;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.partsintro {
-  background: url(../images/rowback.jpg) no-repeat top center fixed;
-  display: table;
-  width: 100%;
-  height: 100%;
-  padding: 100px 0;
-  text-align: center;
-  color: #fff;
-  background-color: #000;
-  position: relative;
-  width: 100% !important;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
+.scullintro { background: url(../images/scullback.jpg) no-repeat top center fixed;}
+.rowintro { background: url(../images/rowback.jpg) no-repeat top center fixed;}
+.seatintro { background: url(../images/seatback.jpg) no-repeat top center fixed;}
+.partsintro { background: url(../images/rowback.jpg) no-repeat top center fixed;}
+.orderintro { background: url(../images/rowback.jpg) no-repeat top center fixed;}
 
 
 #plaid {
