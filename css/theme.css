@@ -693,8 +693,11 @@ hr.star-light-contact:after {
 .orderintro { background: url(../images/rowback.jpg) no-repeat top center fixed;}
 
 
-#plaid {
+.plaid {
 	background: url(../images/repeat.jpg);
+}
+.pink{
+  background-color:rgba(0, 0, 255, 0.1)
 }
 
 #plain {
