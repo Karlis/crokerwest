@@ -231,7 +231,7 @@ a:focus {
 }
 #contact,
 #portfolio {
-  background: url(http://crokerwest.com/newsitecw/images/repeat.jpg);
+  background: url(../images/repeat.jpg);
 }
 #contact h1 {
   margin-bottom: 0;
@@ -667,7 +667,7 @@ hr.star-light-contact:after {
 }
 #sculling-sleeves,
 #rowing-sleeves {
-  background: url(http://crokerwest.com/newsitecw/images/repeat.jpg);
+  background: url(../images/repeat.jpg);
 }
 #sculling-handles,
 #rowing-handles {
@@ -689,7 +689,7 @@ hr.star-light-contact:after {
 .scullintro { background: url(../images/scullback.jpg) no-repeat top center fixed;}
 .rowintro { background: url(../images/rowback.jpg) no-repeat top center fixed;}
 .seatintro { background: url(../images/seatback.jpg) no-repeat top center fixed;}
-.partsintro { background: url(../images/rowback.jpg) no-repeat top center fixed;}
+.partsintro { background: url(../images/partsback.jpg) no-repeat top center fixed;}
 .orderintro { background: url(../images/rowback.jpg) no-repeat top center fixed;}
 
 
