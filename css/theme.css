@@ -511,7 +511,7 @@ hr.star-light-team:after {
   border-color: #000;
   content: "\f013";
   color: #5783FF;
-  background: url(http://crokerwest.com/newsitecw/images/repeat.jpg);
+  background: url(../images/repeat.jpg);
 }
 hr.star-light-testimonial:after {
   border-color: #fff;
@@ -523,7 +523,7 @@ hr.star-light-contact:after {
   border-color: #fff;
   content: "\f003";
   color: #0B9A02;
-  background: url(http://crokerwest.com/newsitecw/images/repeat.jpg);
+  background: url(../images/repeat.jpg);
 }
 /* For underline and icons below section headers - End*/
 
@@ -652,39 +652,15 @@ hr.star-light-contact:after {
   color: #fd437c;
 }
 /* SCULLING */
+#sculling-oars,    #rowing-oars { background-color: #fff; }
+#sculling-shafts,  #rowing-shafts { background: url(../images/repeat.jpg);}
+#sculling-blades,  #rowing-blades { background-color: #fff; }
+#sculling-sleeves, #rowing-sleeves {background: url(../images/repeat.jpg);}
+#sculling-handles, #rowing-handles { background-color: #fff;}
+#sculling-grips,   #rowing-grips { background: url(../images/repeat.jpg);}
+#order { background: url(../images/repeat.jpg);}
 
-#sculling-oars,
-#rowing-oars {
-  background-color: #fff;
-}
-#sculling-shafts,
-#rowing-shafts {
-  background: url(http://crokerwest.com/newsitecw/images/repeat.jpg);
-}
-#sculling-blades,
-#rowing-blades {
-  background-color: #fff;
-}
-#sculling-sleeves,
-#rowing-sleeves {
-  background: url(../images/repeat.jpg);
-}
-#sculling-handles,
-#rowing-handles {
-  background-color: #fff;
-}
-#sculling-grips,
-#rowing-grips {
-  background: url(../images/repeat.jpg);
-}
-#order {
-  background: url(http://crokerwest.com/newsitecw/images/repeat.jpg);
-}
-
-
-.product {
-	padding-top: 60px;
-}
+.product { padding-top: 60px;}
 
 .scullintro { background: url(../images/scullback.jpg) no-repeat top center fixed;}
 .rowintro { background: url(../images/rowback.jpg) no-repeat top center fixed;}
@@ -692,14 +668,6 @@ hr.star-light-contact:after {
 .partsintro { background: url(../images/partsback.jpg) no-repeat top center fixed;}
 .orderintro { background: url(../images/rowback.jpg) no-repeat top center fixed;}
 
-
-.plaid {
-	background: url(../images/repeat.jpg);
-}
-.pink{
-  background-color:rgba(0, 0, 255, 0.1)
-}
-
-#plain {
-  background-color: #ffffff;
-}
+.plaid { background: url(../images/repeat.jpg);}
+.pink { background-color:rgba(0, 0, 255, 0.1);}
+#plain { background-color: #ffffff;}
